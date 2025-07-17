@@ -6,6 +6,8 @@
   <title>SFR Doces</title>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="estilo.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
+
 
 </head>
 <body>
@@ -23,16 +25,29 @@
           <li><a href="#home">home</a></li>
           <li><a href="#sobre-nos">Sobre Nós</a></li>
           <li><a href="#menu-fotos">Menu</a></li>
-
           <li><a href="#localizacao">Localização</a></li>
           <li><a href="#contato">Contatos</a></li>
       
   </header>
 
 <main>
-  <section id="home">
-    <h1><b>Sejam bem-vindos à SFR Doces!</b></h1>
+  <section id="home" class="sessao-home-destaque">
+    <div class="coluna-imagem institucional-bg"></div>
+    <div class="coluna-texto institucional-texto">
+      <h1> Confeitaria SFR Doces </h1>
+      <p>Momentos de sabor e felicidade com a SFR Doces</p>
+      <ul>
+        <li><strong>Vouchers com Descontos</strong>: Cliente fiel, acumula descontos.</li>
+        <li><strong>Presentes Personalizados</strong>: Surpreeda-se com a delicadeza dos nossos produtos.</li>
+        <li><strong>Mimos Especiais</strong>: Todo cliente SFR ganha mimos aos fazer pedidos.</li>
+      </ul>
+      <p>Proporcione carinho e sabor aos que você ama com nossos doces artesanais.</p>
+
+    </div>
   </section>
+  
+  
+  
 
   <section id="sobre-nos">
     <h2>Sobre Nós</h2>
@@ -43,8 +58,8 @@
     </p>
   </section>
 
-  <section id="menu-fotos" style="text-align: center; margin-bottom: 60px; ">
-    <h2>----------- NOSSOS DOCES -----------</h2>
+  <section id="menu-fotos">
+    <h2 class="titulo-doces">Venha conhecer nossos sabores</h2>
     <div class="cards-container">
 
       <div class="card">
@@ -52,7 +67,7 @@
         <div class="card-title">Pão de Mel</div>
       </div>
       <div class="card">
-        <img src="ninho-com-nutella.jpeg" alt="Bolo de Pote de Ninho com ninho-com-nutella" />
+        <img src="ninho-com-nutella.jpeg" alt="Bolo de Pote de Ninho com Nutella" />
         <div class="card-title">Bolo de Pote de Ninho com Nutella</div>
       </div>
       <div class="card">
@@ -60,45 +75,85 @@
         <div class="card-title">Docinhos</div>
       </div>
       <div class="card">
-        <img src="ovo de kinder.jpeg" alt="ovo de kinder" />
-        <div class="card-title">Ovo de Páscoa</div>
+        <img src="torta.jpeg" alt="Torta de Morango" />
+        <div class="card-title">Torta de Morango</div>
       </div>
       <div class="card">
         <img src="bolo confeitado 2.jpeg" alt="bolo confeitado" />
         <div class="card-title">Bolo confeitado</div>
       </div>
       <div class="card">
-        <img src="bolo no pote de brigadeiro.png" alt="bolo no pote de brigadeiro" />
-        <div class="card-title">Bolo no pote de brigadeiro</div>
+        <img src="bolo-caseiro.jpeg" alt="bolo Caseiro" />
+        <div class="card-title">Bolo Caseiro</div>
       </div>
+      <div class="card">
+        <img src="bolo-ninho.jpeg" alt="bolo caseiro de Ninho" />
+        <div class="card-title">Bolo caseiro de Ninho</div>
+      </div>
+      <div class="card">
+        <img src="bolo-verde.jpeg" alt="bolo de aniversário" />
+        <div class="card-title">Bolo de Aniversário</div>
+      </div>
+
+      <div class="card">
+        <img src="ovo de kinder.jpeg" alt="ovo de kinder" />
+        <div class="card-title">Ovo de Páscoa</div>
+      </div>
+      <div class="card">
+        <img src="olho-sogra.jpeg" alt="Docinhos" />
+        <div class="card-title">Docinhos</div>
+      </div>
+      <div class="card">
+        <img src="docinho-azul.jpeg" alt="Docinhos" />
+        <div class="card-title">Docinhos</div>
+      </div>
+      <div class="card">
+        <img src="bolo no pote de brigadeiro.png" alt="Bolo de pote de Brigadeiro" />
+        <div class="card-title">Bolo de pote de Brigadeiro</div>
+      </div>
+    </div>
     </div>
   </section>
 
 
-  <section id="menu-fotos" style="text-align: center; margin-bottom: 50px; padding-bottom: 50px;">
-    <h2>------ NOSSO CARDÁPIO ------</h2>
-    <a href="cardapio.pdf" target="_blank" class="botao-link">
-      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#b565a7" viewBox="0 0 24 24"><path d="M19 2H8a2 2 0 0 0-2 2v4H5a2 2 0 0 0-2 2v8c0 1.103.897 2 2 2h6v2H9v2h6v-2h-2v-2h6c1.103 0 2-.897 2-2V4a2 2 0 0 0-2-2zm0 14H5v-8h14v8zm0-10H8V4h11v2z"/></svg>
-      Ver Cardápio 
-    </a>
-  </section>
-
-
-  <section id="localizacao" style="padding: 40px 20px; text-align: center; background: #f9f5fc; border-radius: 8px; max-width: 700px; margin: 0 auto 50px auto;">
-    <h2 style="font-size: 2rem; color: #5a3e85; margin-bottom: 20px;">Nossa Localização</h2>
-    <p style="font-size: 1.1rem; color: #7f5fa3; margin-bottom: 20px;">
-      Rua Silviano Brandão, 1481 - Princesa Isabel, Cidade Frutal - MG 
+  <section class="cardapio-section">
+    <img src="brigadeiro.png" alt="Ícone de doces" class="icone-cardapio" />
+  
+    <h2><strong>Conheça o nosso Cardápio recheado de delícias!</strong></h2>
+    
+    <p>
+      Da nossa cozinha direto para sua casa! Temos trufas, pães de mel, cones recheados,
+      bolos personalizados e muito mais, todos feitos com carinho, qualidade e aquele toque especial
+      que só a <strong>SFR Doces</strong> tem. Confira tudo no nosso catálogo!
     </p>
-    <iframe 
-      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7497.083913692572!2d-48.9504334064209!3d-20.027729999999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94bcb10df7f9e2a3%3A0xd9190a83e8714833!2sSFR%20Andrea%20Doces!5e0!3m2!1spt-BR!2sbr!4v1752026344317!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">" 
-      <width="100%" 
-      height="300" 
-      style="border:0; border-radius: 12px;" 
-      allowfullscreen="" 
-      loading="lazy" 
-      referrerpolicy="no-referrer-when-downgrade">
-    </iframe>
+  
+    <div class="botoes-cardapio">
+      <a href="cardapio.pdf" target="_blank" class="botao botao-roxo">
+        Ver Cardápio
+      </a>
+      
+    </div>
   </section>
+  
+
+
+  <section id="localizacao" class="sessao-localizacao">
+    <h2 class="titulo-localizacao">
+      Nossa Localização
+    </h2>
+    <p class="mensagem-local">
+      Venha nos visitar! Nossa loja está em um cantinho recheado de sabor e carinho em Frutal — será um prazer te receber!
+    </p>
+    <p class="endereco-local">
+      Rua Silviano Brandão, 1481 — Princesa Isabel, Frutal/MG
+    </p>
+    <div class="mapa-box">
+      
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3748.541957290275!2d-48.94348112494708!3d-20.027729981382848!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94bcb10df7f9e2a3%3A0xd9190a83e8714833!2sSFR%20Andrea%20Doces!5e0!3m2!1spt-BR!2sbr!4v1752708846580!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>" 
+
+    </div>
+  </section>
+  
   
 
   <section id="contato" style="text-align: center; margin-bottom: 50px;">
@@ -116,7 +171,7 @@
       <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
         <path d="M20.52 3.48a11.86 11.86 0 0 0-16.78 16.78l-1.2 4.35 4.46-1.17a11.82 11.82 0 0 0 13.53-19.96zm-8.9 15.42a7.15 7.15 0 0 1-3.66-1.05l-.26-.16-2.16.56.58-2.1-.17-.27a7.16 7.16 0 1 1 5.67 3.02zM16.2 13.2c-.15-.07-.87-.42-1-.47-.13-.05-.22-.07-.31.07-.09.13-.35.47-.43.56-.08.09-.16.1-.31.03-.15-.07-.63-.23-1.2-.74-.44-.39-.74-.87-.83-1.01-.09-.13-.01-.2.06-.27.06-.06.15-.15.23-.22.08-.07.11-.12.17-.2.06-.07.03-.12 0-.2-.04-.07-.31-.75-.43-1.02-.12-.27-.25-.24-.31-.24-.08 0-.18 0-.27 0-.09 0-.23.09-.35.18-.12.09-.45.44-.45 1.08s.46 1.25.53 1.34c.07.09 1.01 1.54 2.44 2.15.34.15.6.24.81.31.34.11.65.09.9.06.28-.03.87-.36.99-.7.12-.34.12-.62.08-.7-.03-.08-.13-.12-.28-.19z"/>
       </svg>
-      Encomendas pelo WhatsApp
+      Entre em Contato
     </a>
   </section>
   
